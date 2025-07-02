@@ -9,6 +9,7 @@ import HeroSection from '@/components/HeroSection';
 import CategoriesSection from '@/components/CategoriesSection';
 import SuppliersSection from '@/components/SuppliersSection';
 import TrustSection from '@/components/TrustSection';
+import LanguageShowcase from '@/components/LanguageShowcase';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
 import { ArrowRight, Building, ShoppingBag } from 'lucide-react';
@@ -77,6 +78,7 @@ const HomePage = () => {
           <HeroSection />
           <PromoBanners />
           <CategoriesSection />
+          <LanguageShowcase />
           <SuppliersSection />
           <TrustSection />
         </main>

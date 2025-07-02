@@ -195,6 +195,16 @@ const translations = {
     messaging_typing: 'typing...',
     messaging_loginRequired: 'Please sign in to access messaging features.',
 
+    // Language Switcher
+    language: 'Language',
+    changeLanguage: 'Change Language',
+    supportTitle: 'Multi-Language Support',
+    languageDescription: 'Experience DUBAIMERX in your preferred language. Switch between English, Arabic, and French seamlessly.',
+    currentLanguage: 'Current Language',
+    featureComplete: 'Complete Translation',
+    featureRTL: 'RTL Support',
+    featureSeamless: 'Seamless Switching',
+
     // Common
     loading: 'Loading...',
     search: 'What are you looking for?',
@@ -387,6 +397,16 @@ const translations = {
     messaging_typing: 'يكتب...',
     messaging_loginRequired: 'يرجى تسجيل الدخول للوصول إلى ميزات المراسلة.',
 
+    // Language Switcher
+    language: 'اللغة',
+    changeLanguage: 'تغيير اللغة',
+    supportTitle: 'دعم متعدد اللغات',
+    languageDescription: 'استمتع بتجربة دبي مركس باللغة التي تفضلها. تبديل سلس بين الإنجليزية والعربية والفرنسية.',
+    currentLanguage: 'اللغة الحالية',
+    featureComplete: 'ترجمة كاملة',
+    featureRTL: 'دعم RTL',
+    featureSeamless: 'تبديل سلس',
+
     // Common
     loading: 'جاري التحميل...',
     search: 'ما الذي تبحث عنه؟',
@@ -578,6 +598,16 @@ const translations = {
     messaging_offline: 'Hors ligne',
     messaging_typing: 'tape...',
     messaging_loginRequired: 'Veuillez vous connecter pour accéder aux fonctionnalités de messagerie.',
+
+    // Language Switcher
+    language: 'Langue',
+    changeLanguage: 'Changer de langue',
+    supportTitle: 'Support Multi-Langues',
+    languageDescription: 'Découvrez DUBAIMERX dans votre langue préférée. Basculez facilement entre l\'anglais, l\'arabe et le français.',
+    currentLanguage: 'Langue Actuelle',
+    featureComplete: 'Traduction Complète',
+    featureRTL: 'Support RTL',
+    featureSeamless: 'Commutation Fluide',
 
     // Common
     loading: 'Chargement...',

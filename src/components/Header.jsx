@@ -79,13 +79,13 @@ const Header = () => {
       opacity: 1
     }} transition={{
       duration: 0.5
-    }} className="fixed top-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-200">
+    }} className="fixed top-0 left-0 right-0 z-40 bg-gradient-to-r from-gray-50 via-gray-100 to-gray-50 backdrop-blur-md border-b border-gray-300 shadow-sm">
         <div className="container mx-auto px-4 py-1 flex flex-col items-center">
           <div className="w-full flex justify-between items-center mb-1.5">
             <div className="relative" ref={langRef}>
               <motion.button whileHover={{
               scale: 1.1
-            }} onClick={() => setLangOpen(!isLangOpen)} className="p-1 text-gray-600 hover:text-orange-500 transition-colors">
+            }} onClick={() => setLangOpen(!isLangOpen)} className="p-1 text-gray-700 hover:text-orange-500 transition-colors">
                 <Globe className="w-4 h-4" />
               </motion.button>
               <AnimatePresence>
@@ -98,7 +98,7 @@ const Header = () => {
               }} exit={{
                 opacity: 0,
                 y: -10
-              }} className={`absolute top-full mt-2 bg-white rounded-lg shadow-lg border border-gray-200 min-w-[120px] ${isRTL ? 'right-0' : 'left-0'}`}>
+              }} className={`absolute top-full mt-2 bg-gradient-to-b from-white to-gray-50 rounded-lg shadow-lg border border-gray-300 min-w-[120px] ${isRTL ? 'right-0' : 'left-0'}`}>
                     {languages.map(lang => <button key={lang.code} onClick={() => handleLanguageChange(lang.code)} className={`w-full px-4 py-2 text-left hover:bg-orange-50 transition-colors flex items-center space-x-2 text-sm ${language === lang.code ? 'bg-orange-50 text-orange-600' : 'text-gray-700'} ${lang.code === 'ar' ? 'text-right' : ''}`}>
                         <span>{lang.flag}</span>
                         <span>{lang.name}</span>
@@ -111,7 +111,7 @@ const Header = () => {
               <motion.div whileHover={{
               scale: 1.05
             }} className="flex items-center">
-                <span className="text-lg font-bold text-gradient">DUBAIMERX.COM          </span>
+                <span className="text-lg font-bold bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 bg-clip-text text-transparent">DUBAIMERX.COM</span>
               </motion.div>
             </Link>
 
@@ -119,7 +119,7 @@ const Header = () => {
             scale: 1.1
           }} whileTap={{
             scale: 0.9
-          }} onClick={() => setSidebarOpen(true)} className="p-1 text-gray-600 hover:text-orange-500 transition-colors">
+                      }} onClick={() => setSidebarOpen(true)} className="p-1 text-gray-700 hover:text-orange-500 transition-colors">
               <Menu className="w-4 h-4" />
             </motion.button>
           </div>
